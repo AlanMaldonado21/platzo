@@ -53,3 +53,30 @@ nav ul li a {
     background-color: red;
 }
 
+footer {
+    position: relative;
+    top: 30rem;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div {
+    padding: 1em;
+}
+footer div ul {
+    list-style-type: none;
+}
+footer div ul li{
+    margin: 1rem;
+}
+footer div ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+footer  img {
+    width: 10%;
+    height: 100%;
+}
