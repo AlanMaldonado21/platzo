@@ -1,5 +1,5 @@
 *{
-    margin: 3rem;
+    margin: 0rem;
     padding: 0;
     box-sizing: border-box;
 }
@@ -43,4 +43,15 @@ nav ul li a {
 #cabecera:hover{
     background-color: red;
     color: #000000;
+}
+
+.container{
+    margin: 1rem auto;
+    width: 50%;
+    height: 60px;
+    border: 2px solid whitesmoke;
+}
+
+.red{
+    background-color: red;
 }
