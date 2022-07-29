@@ -2,8 +2,6 @@
     margin: 0rem;
     padding: 0;
     box-sizing: border-box;
-}
-body{
     text-align: center;
 }
 
@@ -54,3 +52,4 @@ nav ul li a {
 .red{
     background-color: red;
 }
+
