@@ -2,3 +2,12 @@ h1{
     background-color: #000000;
     color: #FFFFFF;
 }
+section{
+    background-color: aqua;
+}
+footer{
+    background-color: red;
+}
+body{
+    background-color: coral;
+}
