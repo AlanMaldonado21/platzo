@@ -1,13 +1,42 @@
-h1{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: goldenrod;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 1em;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+
+#cabecera{
+    border-radius: 5px;
+    padding: 15px;
     background-color: #000000;
-    color: #FFFFFF;
+    transition: all 0.5s ease-in;
+    cursor: pointer;
 }
-section{
-    background-color: aqua;
-}
-footer{
+
+#cabecera:hover{
     background-color: red;
-}
-body{
-    background-color: coral;
+    color: #000000;
 }
