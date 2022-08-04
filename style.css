@@ -33,20 +33,19 @@ nav ul li a {
     border-radius: 5px;
     padding: 15px;
     background-color: #000000;
-    transition: all 0.5s ease-in;
-    cursor: pointer;
+    
 }
 
-#cabecera:hover{
-    background-color: red;
-    color: #000000;
+#cabecera img{
+    width: 3rem;
 }
-
 .container{
     margin: 1rem auto;
     width: 50%;
-    height: 60px;
+    height: 120x;
     border: 2px solid whitesmoke;
+    justify-content: space-between;
+    display: flex;
 }
 
 .red{
@@ -70,7 +69,7 @@ footer div ul {
 footer div ul li{
     margin: 1rem;
 }
-footer div ul li a {
+footer div ul li a { 
     text-decoration: none;
     color: black;
     font-weight: 400;
@@ -80,3 +79,16 @@ footer  img {
     width: 10%;
     height: 100%;
 }
+
+
+.container div img{
+    width: 10rem;
+}
+.container .imagen {
+    background-color: red;
+}
+
+.textos{
+    background-color: cornflowerblue;
+}
+
